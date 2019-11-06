@@ -56,7 +56,6 @@ class NoLeakSplashScreenActivity: AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        //        Fabric.with(this, new Crashlytics());
         setContentView(R.layout.activity_splash)
         context = this
         activity = this
