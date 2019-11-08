@@ -8,7 +8,7 @@
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Hello Profile"
+            android:text="Octavian IONEL \nioneloctavian@gmail.com\n+39 32 88 45 47 96"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"

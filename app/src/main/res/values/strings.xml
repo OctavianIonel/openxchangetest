@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">openxchangetest</string>
+    <string name="show_table_btn">Show table with data</string>
+    <string name="show_result_waiting">Please wait...</string>
+    <string name="write_permission_btn">Obtain writing permissions</string>
+    <string name="data_downloaded_btn">Data downloaded</string>
+    <string name="data_loaded_from_db_btn">Data loaded from DB</string>
+    <string name="downloading_data_btn">Downloading data to file...</string>
+    <string name="downloading_data_to_db_btn">Downloading data to db...</string>
+    <string name="permission_not_granted_title">The permission was denied</string>
+    <string name="permission_not_granted_body">To continue you should enable the permission</string>
+    <string name="permission_positive_button">Settings</string>
+    <string name="permission_negative_button">Cancel</string>
 </resources>
