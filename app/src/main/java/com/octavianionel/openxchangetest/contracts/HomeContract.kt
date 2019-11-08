@@ -4,9 +4,6 @@ import android.content.Context
 import com.octavianionel.openxchangetest.model.Earthquake
 import java.util.ArrayList
 
-/**
- * Created by Reply on 06/11/2019.
- */
 interface HomeContract {
 
     interface TheView {

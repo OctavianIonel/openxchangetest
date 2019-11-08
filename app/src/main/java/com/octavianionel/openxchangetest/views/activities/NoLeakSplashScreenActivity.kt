@@ -12,9 +12,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.octavianionel.openxchangetest.R
 import java.lang.ref.WeakReference
 
-/**
- * Created by Reply on 05/11/2019.
- */
+
 class NoLeakSplashScreenActivity: AppCompatActivity() {
     private var activity: Activity? = null
 

@@ -1,8 +1,5 @@
 package com.octavianionel.openxchangetest.model
 
-/**
- * Created by Reply on 08/11/2019.
- */
 data class Earthquake(
     var uniqueId: Int? = null,
     var time: String? = null,

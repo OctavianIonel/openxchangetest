@@ -14,9 +14,6 @@ import java.io.FileReader
 import java.net.URL
 
 
-/**
- * Created by Reply on 06/11/2019.
- */
 class HomePresenter(view: HomeContract.TheView): BasePresenter<HomeContract.TheView>(view), HomeContract.Presenter {
 
     override fun detach() {

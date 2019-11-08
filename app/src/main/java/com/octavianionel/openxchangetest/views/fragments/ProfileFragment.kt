@@ -8,9 +8,6 @@ import androidx.fragment.app.Fragment
 import com.octavianionel.openxchangetest.R
 import com.octavianionel.openxchangetest.contracts.ProfileContract
 
-/**
- * Created by Reply on 05/11/2019.
- */
 class ProfileFragment: Fragment(), ProfileContract.TheView {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {

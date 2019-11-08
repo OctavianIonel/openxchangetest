@@ -20,9 +20,6 @@ import kotlinx.android.synthetic.main.fragment_home.*
 import java.util.ArrayList
 
 
-/**
- * Created by Reply on 05/11/2019.
- */
 class HomeFragment: Fragment(), HomeContract.TheView {
 
     private var mPresenter: HomePresenter? = null

@@ -1,8 +1,5 @@
 package com.octavianionel.openxchangetest.utils
 
-/**
- * Created by Reply on 05/11/2019.
- */
 class Utils {
     enum class FragmentType {
         HOME, PROFILE

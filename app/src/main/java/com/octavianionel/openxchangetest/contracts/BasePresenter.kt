@@ -1,8 +1,5 @@
 package com.octavianionel.openxchangetest.contracts
 
-/**
- * Created by Reply on 06/11/2019.
- */
 abstract class BasePresenter<T>(var view: T?) {
 
     /**

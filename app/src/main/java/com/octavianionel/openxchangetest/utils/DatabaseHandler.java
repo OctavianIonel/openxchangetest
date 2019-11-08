@@ -6,12 +6,8 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import com.octavianionel.openxchangetest.model.Earthquake;
-
 import java.util.ArrayList;
 
-/**
- * Created by Reply on 07/11/2019.
- */
 
 public class DatabaseHandler extends SQLiteOpenHelper {
 
@@ -27,7 +23,7 @@ public class DatabaseHandler extends SQLiteOpenHelper {
 
     //**************EARTHQUAKE**************
 
-    // Directories table name
+    // Earthquake table name
     private static final String TABLE_EARTHQUAKE = "earthquake";
 
     private static final String UNIQUE_ID = "uniqueId";
