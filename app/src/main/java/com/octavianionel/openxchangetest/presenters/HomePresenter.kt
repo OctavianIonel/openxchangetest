@@ -22,10 +22,10 @@ class HomePresenter(view: HomeContract.TheView): BasePresenter<HomeContract.TheV
 
     override fun downloadCsvFile(url: String) {
 
-        DownloadAudioFromUrl(view).execute(url)
+        DownloadCsvFromUrl(view).execute(url)
     }
 
-    class DownloadAudioFromUrl(val view: HomeContract.TheView?): AsyncTask<String, String, String>() {
+    class DownloadCsvFromUrl(val view: HomeContract.TheView?): AsyncTask<String, String, String>() {
 
         override fun doInBackground(vararg p0: String?): String {
             val url  = URL(p0[0])
